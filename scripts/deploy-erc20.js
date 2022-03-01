@@ -1,6 +1,5 @@
 const hre = require("hardhat");
 const EXPLORER_API_KEY = process.env.EXPLORER_API_KEY || "0x0000000000000000000000000000000000000000";
-const VAULT_ADDRESS = process.env.VAULT_ADDRESS || "0x0000000000000000000000000000000000000000";
 
 async function main() {
   console.log("\nNEONEARTH ERC20 DEPLOYMENT\n");
